@@ -1,0 +1,51 @@
+* {
+	font-family: Droid Sans;
+}
+
+h1 {
+	text-align: center;
+}
+
+.container {
+	max-width: 900px;
+	margin: auto;
+}
+
+.box {
+	height: 200px;
+	width: 95%;
+	background: #fee252;
+	margin-right: 10px;
+}
+
+.menu {
+	text-align: center;
+}
+
+.logo {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.logo img {
+	width: 100px;
+}
+
+.icon {
+	width: 69px;
+}
+
+.set-icon {
+	padding-top: 150px;
+	text-align: center;
+}
+
+@media all and (max-width: 767px){
+	.set-icon {
+		padding-top: 50px;
+	}	
+
+	.icon-holder {
+		padding-bottom: 20px;
+	}
+}
