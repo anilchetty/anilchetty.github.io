@@ -1,14 +1,28 @@
+body{
+	background-color: #eaeaea;
+}
 * {
 	font-family: Droid Sans;
 }
 
+.icons p{
+	color: #616161;
+	font-family: raleway;
+	font-weight: 300;
+}
+
 h1 {
+	font-family: 'Raleway';
+	color: #3498DB;x
+	font-weight: 500;
+	padding-top:100px;
 	text-align: center;
 }
 
 .container {
 	max-width: 900px;
 	margin: auto;
+	background-color: 00000;
 }
 
 .box {
@@ -20,6 +34,11 @@ h1 {
 
 .menu {
 	text-align: center;
+}
+.contact{
+	text-align: center;
+	font-family: raleway;
+	font-size: 300;
 }
 
 .logo {
